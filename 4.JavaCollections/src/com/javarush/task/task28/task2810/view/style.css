@@ -1,0 +1,73 @@
+th{
+    color:#9C6BCA;
+    font-size:13px;
+}
+
+td{
+    color:#316403;
+    font-size:13px;
+}
+
+.skills{
+    font-size:10px;
+    width:750px;
+}
+
+.skills:hover{
+    font-size:13px;
+    color:#000000;
+}
+
+.title{
+    color:#836B05;
+}
+
+.title:hover{
+    color:#620003;
+}
+
+.companyName{
+    font-size:12px;
+    width:170px;
+}
+
+.companyName:hover{
+    font-size:13px;
+    color:#2626F8;
+}
+
+.salary{
+    font-size:10px;
+    width:90px;
+}
+
+.salary:hover{
+    font-size:10.5px;
+    color:#2626F8;
+}
+.city{
+    font-size:11px;
+    width:50px;
+    color:#305A07;
+    }
+
+.city:hover{
+    font-size:12px;
+    color:#2626F8;
+}
+
+table{
+  background-color:#F4F3EC;
+  border:3px solid #8054A1;
+  font-size:15px;
+  margin-left:30px;
+  margin-right:20px;
+  margin-bottom:20px;
+  margin-top:10px;
+  padding-top:5px;
+  padding-left:20px;
+  padding-right:5px;
+  padding-bottom:10px;
+  border-radius:20px;
+}
+

@@ -1,0 +1,158 @@
+Index: controller/Controller.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- controller/Controller.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ controller/Controller.java	(date 1577968504928)
+@@ -1,11 +1,14 @@
+ package com.javarush.task.task34.task3410.controller;
+ 
++import com.javarush.task.task34.task3410.controller.EventListener;
+ import com.javarush.task.task34.task3410.model.Direction;
+ import com.javarush.task.task34.task3410.model.GameObjects;
+ import com.javarush.task.task34.task3410.model.Model;
+ import com.javarush.task.task34.task3410.view.View;
++import com.javarush.task.task34.task3410.model.Direction;
++
+ 
+-public class Controller implements EventListener{
++public class Controller implements EventListener {
+ 
+     private View view;
+     private Model model;
+@@ -50,7 +53,6 @@
+         return model.getGameObjects();
+     }
+ 
+-
+     public int[] getLevelAndSize() {
+         return model.getLevelAndSize();
+     }
+Index: model/Home.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/Home.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ model/Home.java	(date 1577968504924)
+@@ -2,7 +2,7 @@
+ 
+ import java.awt.*;
+ 
+-public class Home extends GameObject{
++public class Home extends GameObject {
+ 
+     public Home(int x, int y) {
+         super(x, y);
+Index: view/Field.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- view/Field.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ view/Field.java	(date 1577968504935)
+@@ -26,7 +26,9 @@
+     public void paint(Graphics g) {
+         Color color = new Color(84, 84, 84);
+         g.setColor(color);
+-        g.fillRect(0, 0, getWidth(), getHeight());
++//        g.fillRect(0, 0, getWidth(), getHeight());
++        g.fillRect(0, 0, view.getWidth(), view.getHeight());
++
+         for (GameObject gameObject : view.getGameObjects().getAll()) {
+             gameObject.draw(g);
+         }
+Index: model/Wall.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/Wall.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ model/Wall.java	(date 1577968504921)
+@@ -2,7 +2,7 @@
+ 
+ import java.awt.*;
+ 
+-public class Wall extends GameObject{
++public class Wall extends GameObject {
+     public Wall(int x, int y) {
+         super(x, y);
+     }
+Index: model/CollisionObject.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/CollisionObject.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ model/CollisionObject.java	(date 1577968504932)
+@@ -2,7 +2,7 @@
+ 
+ import static com.javarush.task.task34.task3410.model.Model.FIELD_CELL_SIZE;
+ 
+-public abstract class CollisionObject extends GameObject{
++public abstract class CollisionObject extends GameObject {
+ 
+     public CollisionObject(int x, int y) {
+         super(x, y);
+Index: model/Model.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/Model.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ model/Model.java	(date 1577973332359)
+@@ -9,7 +9,7 @@
+     public static int FIELD_CELL_SIZE = 20;
+     public EventListener eventListener;
+     public GameObjects gameObjects;  // будет хранить наши игровые объекты
+-    public int currentLevel = 42;     // текущий уровень
++    public int currentLevel = 50;     // текущий уровень
+ 
+     public LevelLoader levelLoader = new LevelLoader(Paths.get("/Users/taras/Downloads/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task34/task3410/res/levels.txt"));
+ 
+Index: model/LevelLoader.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- model/LevelLoader.java	(revision 08efd3512918b8139f0e0859610d6565203c175f)
++++ model/LevelLoader.java	(date 1577968504918)
+@@ -20,11 +20,8 @@
+     public int yField;
+ 
+     public int getXField() { return xField; }
+-
+     public void setXField(int xField) { this.xField = xField; }
+-
+     public int getYField() { return yField; }
+-
+     public void setYField(int yField) { this.yField = yField; }
+ 
+     public GameObjects getLevel(int level){
+@@ -49,7 +46,9 @@
+         for(String s : rows) {
+             if (s.contains("Maze:")){
+                 lev = Integer.parseInt(s.split(": ")[1]);
+-                if (lev == level) flag = true;
++                if (lev == level){
++                    flag = true;
++                }
+             }
+ 
+             if (s.isEmpty() || !flag) continue;
+@@ -59,7 +58,7 @@
+                     continue;
+                 }
+                 if (s.contains("Size Y:")) {
+-                    setYField(Integer.parseInt(s.split(": ")[1])*FIELD_CELL_SIZE+FIELD_CELL_SIZE);
++                    setYField(Integer.parseInt(s.split(": ")[1])*FIELD_CELL_SIZE + FIELD_CELL_SIZE);
+                     continue;
+                 }
+                 if (!s.contains(":") && !s.equals("*************************************")) {
+@@ -96,4 +95,5 @@
+         }
+         return gameObjects;
+     }
++
+ }

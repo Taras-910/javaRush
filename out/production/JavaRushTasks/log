@@ -1,0 +1,52 @@
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:25:21 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:25:21 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:26:35 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:26:35 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:28:52 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:28:52 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:30:45 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:30:45 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)

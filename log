@@ -1,0 +1,527 @@
+
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:34:51 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:34:51 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)
+DEBUG Solution:19 - вход в конструктор Solution(int value1(0), String value2(null), Date value3(null))
+DEBUG Solution:74 - Start setValue1 value1 = 1
+DEBUG Solution:79 - Start setValue2  value2 Hello, java
+DEBUG Solution:84 - Start setValue3  value3 Wed Jul 10 20:36:54 EEST 2019
+TRACE Solution:37 - Start calculateAndSetValue3
+DEBUG Solution:45 - New value1:-128
+TRACE Solution:57 - в методе printDaneAsLong если value3 != null выводится на печать value3.getTime()Wed Jul 10 20:36:54 EEST 2019
+TRACE Solution:50 - в методе printString если value2 != null выводится на печать value2.length() = 11
+TRACE Solution:65 - вход в метод divide выводится на печать 1/0
+ERROR Solution:68 - Error while divide 1/0
+java.lang.ArithmeticException: / by zero
+	at com.javarush.task.task34.task3412.Solution.divide(Solution.java:66)
+	at com.javarush.task.task34.task3412.Solution.main(Solution.java:33)
+INFO  Solution:16 - Test log record!!!
+ERROR Solution:17 - В программе возникла ошибка!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:15 - Начало работы программы!!!
+WARN  Solution:18 - Внимание! Программа пытается разделить одно число на другое
+ERROR Solution:22 - Ошибка! Произошло деление на ноль!
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:98 - Начало работы программы readObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:105 - в readObject прочитал sizeOfSet
+INFO  Solution:108 - в readObject прочитал loadFactor
+INFO  Solution:111 - в readObject прочитал capacity
+INFO  Solution:117 - вход в цикл readObject
+INFO  Solution:117 - вход в цикл readObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:105 - в readObject прочитал sizeOfSet
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:93 - вход в цикл writeObject
+INFO  Solution:99 - Начало работы программы readObject
+INFO  Solution:102 - в readObject прочитал defaultReadObject
+INFO  Solution:105 - в readObject прочитал sizeOfSet
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:100 - Начало работы программы readObject
+INFO  Solution:103 - в readObject прочитал defaultReadObject
+INFO  Solution:106 - в readObject прочитал sizeOfSet
+INFO  Solution:109 - в readObject прочитал capacity
+INFO  Solution:112 - в readObject прочитал loadFactor
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:100 - Вход в метод readObject
+INFO  Solution:103 - в readObject прочитал defaultReadObject
+INFO  Solution:106 - в readObject прочитал sizeOfSet
+INFO  Solution:109 - в readObject прочитал capacity
+INFO  Solution:112 - в readObject прочитал loadFactor
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:119 - выход из метода readObject
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:119 - выход из метода readObject
+INFO  Solution:86 - Начало работы программы writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:94 - вход в цикл writeObject
+INFO  Solution:100 - Вход в метод readObject
+INFO  Solution:103 - в readObject прочитал defaultReadObject
+INFO  Solution:106 - в readObject прочитал sizeOfSet
+INFO  Solution:109 - в readObject прочитал capacity
+INFO  Solution:112 - в readObject прочитал loadFactor
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:119 - выход из метода readObject
+INFO  Solution:116 - вход в цикл readObject
+INFO  Solution:119 - выход из метода readObject
+INFO  Solution:87 - Начало работы программы writeObject
+INFO  Solution:95 - вход в цикл writeObject
+INFO  Solution:95 - вход в цикл writeObject
+INFO  Solution:101 - Вход в метод readObject
+INFO  Solution:104 - в readObject прочитал defaultReadObject
+INFO  Solution:107 - в readObject прочитал sizeOfSet
+INFO  Solution:110 - в readObject прочитал capacity
+INFO  Solution:113 - в readObject прочитал loadFactor
+INFO  Solution:117 - вход в цикл readObject
+INFO  Solution:120 - выход из метода readObject
+INFO  Solution:117 - вход в цикл readObject
+INFO  Solution:120 - выход из метода readObject
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:116 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:116 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:27 - перед созданием объекта AmigoSet
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:27 - перед созданием объекта AmigoSet
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:27 - перед созданием объекта AmigoSet
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:29 - после созданиея объекта AmigoSet
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:27 - перед созданием объекта AmigoSet
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:29 - после созданиея объекта AmigoSet
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: sizeOfSet =2 capacity =16 loadFactor + 0.75
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:87 - вход в метод writeObject
+INFO  Solution:97 - вход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:102 - вход в метод readObject
+INFO  Solution:118 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:126 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:28 - вход в конструктор (): map =[]
+INFO  Solution:31 - выход из конструктора (): map =[]
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:126 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:28 - вход в конструктор (): map =[]
+INFO  Solution:31 - выход из конструктора (): map =[]
+INFO  Solution:36 - после созданиея объекта AmigoSet1 =[]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:126 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:126 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:126 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:15 - вход в конструктор (collection): map =[]
+INFO  Solution:24 - выход из конструктора (collection): map =[ddd, rrrr]
+INFO  Solution:19 - после созданиея объекта AmigoSet =[ddd, rrrr]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:29 - перед созданием объекта AmigoSet1
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:123 - выход из метода readObject: map =[ddd, rrrr]
+INFO  Solution:28 - вход в конструктор (): map =[]
+INFO  Solution:31 - выход из конструктора (): map =[]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:123 - выход из метода readObject: map =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+INFO  Solution:28 - вход в конструктор (): map =[]
+INFO  Solution:31 - выход из конструктора (): map =[]
+INFO  Solution:95 - вход в метод writeObject
+INFO  Solution:105 - выход из метода writeObject
+INFO  Solution:110 - вход в метод readObject
+INFO  Solution:123 - выход из метода readObject: map =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+INFO  Solution:29 - вход в конструктор (): map =[]
+INFO  Solution:32 - выход из конструктора (): map =[]
+INFO  Solution:106 - вход в метод writeObject
+INFO  Solution:116 - выход из метода writeObject
+INFO  Solution:121 - вход в метод readObject
+INFO  Solution:134 - выход из метода readObject: map =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+INFO  Solution:29 - вход в конструктор (): map =[]
+INFO  Solution:32 - выход из конструктора (): map =[]
+INFO  Solution:106 - вход в метод writeObject
+INFO  Solution:116 - выход из метода writeObject
+INFO  Solution:121 - вход в метод readObject
+INFO  Solution:134 - выход из метода readObject: map =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+INFO  Solution:29 - вход в конструктор (): map =[]
+INFO  Solution:32 - выход из конструктора (): map =[]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {s}->https://requestbin.jumio.com:443
+DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to requestbin.jumio.com/34.233.252.9:443
+DEBUG SSLConnectionSocketFactory:366 - Connecting socket to requestbin.jumio.com/34.233.252.9:443 with timeout 0
+DEBUG SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+DEBUG SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG SSLConnectionSocketFactory:435 - Starting handshake
+DEBUG SSLConnectionSocketFactory:465 - Secure session established
+DEBUG SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+DEBUG SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+DEBUG SSLConnectionSocketFactory:475 -  peer principal: CN=requestbin.jumio.com, OU=Domain Control Validated
+DEBUG SSLConnectionSocketFactory:484 -  peer alternative names: [requestbin.jumio.com, www.requestbin.jumio.com]
+DEBUG SSLConnectionSocketFactory:488 -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.101:56417<->34.233.252.9:443
+DEBUG MainClientExec:255 - Executing request GET /y3abvfy3 HTTP/1.1
+DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+DEBUG headers:133 - http-outgoing-0 >> GET /y3abvfy3 HTTP/1.1
+DEBUG headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+DEBUG headers:136 - http-outgoing-0 >> Host: requestbin.jumio.com
+DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG wire:73 - http-outgoing-0 >> "GET /y3abvfy3 HTTP/1.1[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Host: requestbin.jumio.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.15.12[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Date: Wed, 18 Dec 2019 20:20:11 GMT[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Length: 3[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Sponsored-By: https://www.runscope.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "ok[\n]"
+DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.15.12
+DEBUG headers:125 - http-outgoing-0 << Date: Wed, 18 Dec 2019 20:20:11 GMT
+DEBUG headers:125 - http-outgoing-0 << Content-Type: text/html; charset=utf-8
+DEBUG headers:125 - http-outgoing-0 << Content-Length: 3
+DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+DEBUG headers:125 - http-outgoing-0 << Sponsored-By: https://www.runscope.com
+DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {s}->https://requestbin.jumio.com:443] can be kept alive indefinitely
+DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {s}->https://requestbin.jumio.com:443
+DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to requestbin.jumio.com/34.233.252.9:443
+DEBUG SSLConnectionSocketFactory:366 - Connecting socket to requestbin.jumio.com/34.233.252.9:443 with timeout 0
+DEBUG SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+DEBUG SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG SSLConnectionSocketFactory:435 - Starting handshake
+DEBUG SSLConnectionSocketFactory:465 - Secure session established
+DEBUG SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+DEBUG SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+DEBUG SSLConnectionSocketFactory:475 -  peer principal: CN=requestbin.jumio.com, OU=Domain Control Validated
+DEBUG SSLConnectionSocketFactory:484 -  peer alternative names: [requestbin.jumio.com, www.requestbin.jumio.com]
+DEBUG SSLConnectionSocketFactory:488 -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.101:54242<->34.233.252.9:443
+DEBUG MainClientExec:255 - Executing request GET /y3abvfy3 HTTP/1.1
+DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+DEBUG headers:133 - http-outgoing-0 >> GET /y3abvfy3 HTTP/1.1
+DEBUG headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+DEBUG headers:136 - http-outgoing-0 >> Host: requestbin.jumio.com
+DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG wire:73 - http-outgoing-0 >> "GET /y3abvfy3 HTTP/1.1[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Host: requestbin.jumio.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.15.12[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Date: Thu, 19 Dec 2019 09:47:30 GMT[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Length: 3[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Sponsored-By: https://www.runscope.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "ok[\n]"
+DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.15.12
+DEBUG headers:125 - http-outgoing-0 << Date: Thu, 19 Dec 2019 09:47:30 GMT
+DEBUG headers:125 - http-outgoing-0 << Content-Type: text/html; charset=utf-8
+DEBUG headers:125 - http-outgoing-0 << Content-Length: 3
+DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+DEBUG headers:125 - http-outgoing-0 << Sponsored-By: https://www.runscope.com
+DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {s}->https://requestbin.jumio.com:443] can be kept alive indefinitely
+DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {s}->https://requestbin.jumio.com:443
+DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to requestbin.jumio.com/34.233.252.9:443
+DEBUG SSLConnectionSocketFactory:366 - Connecting socket to requestbin.jumio.com/34.233.252.9:443 with timeout 0
+DEBUG SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+DEBUG SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG SSLConnectionSocketFactory:435 - Starting handshake
+DEBUG SSLConnectionSocketFactory:465 - Secure session established
+DEBUG SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+DEBUG SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+DEBUG SSLConnectionSocketFactory:475 -  peer principal: CN=requestbin.jumio.com, OU=Domain Control Validated
+DEBUG SSLConnectionSocketFactory:484 -  peer alternative names: [requestbin.jumio.com, www.requestbin.jumio.com]
+DEBUG SSLConnectionSocketFactory:488 -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.101:58574<->34.233.252.9:443
+DEBUG MainClientExec:255 - Executing request POST /y3abvfy3 HTTP/1.1
+DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+DEBUG headers:133 - http-outgoing-0 >> POST /y3abvfy3 HTTP/1.1
+DEBUG headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+DEBUG headers:136 - http-outgoing-0 >> Content-Length: 34
+DEBUG headers:136 - http-outgoing-0 >> Content-Type: text/plain; charset=UTF-8
+DEBUG headers:136 - http-outgoing-0 >> Host: requestbin.jumio.com
+DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG wire:73 - http-outgoing-0 >> "POST /y3abvfy3 HTTP/1.1[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 34[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Host: requestbin.jumio.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+DEBUG wire:87 - http-outgoing-0 >> "name=zapp&mood=good&locale=&id=777"
+DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.15.12[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Date: Thu, 19 Dec 2019 09:58:10 GMT[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Length: 3[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Sponsored-By: https://www.runscope.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "ok[\n]"
+DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.15.12
+DEBUG headers:125 - http-outgoing-0 << Date: Thu, 19 Dec 2019 09:58:10 GMT
+DEBUG headers:125 - http-outgoing-0 << Content-Type: text/html; charset=utf-8
+DEBUG headers:125 - http-outgoing-0 << Content-Length: 3
+DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+DEBUG headers:125 - http-outgoing-0 << Sponsored-By: https://www.runscope.com
+DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {s}->https://requestbin.jumio.com:443] can be kept alive indefinitely
+DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {s}->https://requestbin.jumio.com:443
+DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to requestbin.jumio.com/34.233.252.9:443
+DEBUG SSLConnectionSocketFactory:366 - Connecting socket to requestbin.jumio.com/34.233.252.9:443 with timeout 0
+DEBUG SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+DEBUG SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG SSLConnectionSocketFactory:435 - Starting handshake
+DEBUG SSLConnectionSocketFactory:465 - Secure session established
+DEBUG SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+DEBUG SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+DEBUG SSLConnectionSocketFactory:475 -  peer principal: CN=requestbin.jumio.com, OU=Domain Control Validated
+DEBUG SSLConnectionSocketFactory:484 -  peer alternative names: [requestbin.jumio.com, www.requestbin.jumio.com]
+DEBUG SSLConnectionSocketFactory:488 -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.101:61936<->34.233.252.9:443
+DEBUG MainClientExec:255 - Executing request POST /y3abvfy3 HTTP/1.1
+DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+DEBUG headers:133 - http-outgoing-0 >> POST /y3abvfy3 HTTP/1.1
+DEBUG headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+DEBUG headers:136 - http-outgoing-0 >> Content-Length: 37
+DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+DEBUG headers:136 - http-outgoing-0 >> Host: requestbin.jumio.com
+DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG wire:73 - http-outgoing-0 >> "POST /y3abvfy3 HTTP/1.1[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 37[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Host: requestbin.jumio.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+DEBUG wire:87 - http-outgoing-0 >> "name=zapp&mood=good&locale%3D=&id=777"
+DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.15.12[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Date: Thu, 19 Dec 2019 10:48:58 GMT[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Content-Length: 3[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "Sponsored-By: https://www.runscope.com[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+DEBUG wire:73 - http-outgoing-0 << "ok[\n]"
+DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.15.12
+DEBUG headers:125 - http-outgoing-0 << Date: Thu, 19 Dec 2019 10:48:58 GMT
+DEBUG headers:125 - http-outgoing-0 << Content-Type: text/html; charset=utf-8
+DEBUG headers:125 - http-outgoing-0 << Content-Length: 3
+DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+DEBUG headers:125 - http-outgoing-0 << Sponsored-By: https://www.runscope.com
+DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {s}->https://requestbin.jumio.com:443] can be kept alive indefinitely
+DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {s}->https://requestbin.jumio.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {}->http://requestb.in:80
+DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+DEBUG MainClientExec:129 - Connection discarded
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG RequestAddCookies:123 - CookieSpec selected: default
+DEBUG RequestAuthCache:77 - Auth cache not set in the context
+DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG MainClientExec:234 - Opening connection {}->http://requestb.in:80
+DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+DEBUG MainClientExec:129 - Connection discarded
+DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://requestb.in:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
